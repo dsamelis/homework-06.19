@@ -1,0 +1,104 @@
+    * {
+     box-sizing: border-box;
+    }
+
+    body {
+        margin: 0px;
+    }
+
+    .container {
+        background-color: lightgrey;
+        position: relative;
+        width: 300px;
+        height: 300px;
+        margin-left: 500px;
+    }
+
+    .red {
+        border: 6px solid red;
+        background-color: rgba(239, 4, 4, 0.4);
+        position: absolute;
+        border-radius: 50%;
+        width: 60%;
+        height: 60%;
+        top: 0px;
+        left: 60px;
+        text-align: center;
+        line-height: 5;
+        z-index: 1;
+        animation: redcircle 3s alternate infinite ease;
+    }
+
+
+    .green {
+        border: 6px solid green;
+        background-color: rgba(44, 239, 4, 0.38);
+        position: absolute;
+        border-radius: 50%;
+        width: 60%;
+        height: 60%;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+        line-height: 5;
+        z-index: 2;
+        animation: greencircle 3s alternate infinite ease;
+    }
+
+    .blue {
+        border: 6px solid blue;
+        background-color: rgba(10, 14, 250, 0.37);
+        position: absolute;
+        border-radius: 50%;
+        width: 60%;
+        height: 60%;
+        bottom: 0px;
+        right: 0px;
+        text-align: center;
+        line-height: 5;
+        z-index: 3;
+        animation: bluecircle 3s alternate infinite ease;
+    }
+
+    @keyframes redcircle {
+      from {
+        left: 20%;
+        top: 0%;
+      }
+      to {
+        left: 20%;
+        top: 20%;
+      }
+    }
+    @keyframes greencircle {
+      from {
+        left: 0%;
+        top: 40%;
+      }
+      to {
+        left: 20%;
+        top: 20%;
+      }
+    }
+    @keyframes bluecircle {
+      from {
+        left: 40%;
+        top: 40%;
+      }
+      to {
+        left: 20%;
+        top: 20%;
+      }
+    }
+
+    .inside {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .main {
+        font-size: 19px;
+        color: rgb(122, 0, 2);
+        background-color: black;
+    }
