@@ -26,7 +26,7 @@
         text-align: center;
         line-height: 5;
         z-index: 1;
-        animation: redcircle 3s alternate infinite ease;
+        animation: redcircle 1s alternate infinite linear;
     }
 
 
@@ -42,7 +42,7 @@
         text-align: center;
         line-height: 5;
         z-index: 2;
-        animation: greencircle 3s alternate infinite ease;
+        animation: greencircle 1s alternate infinite ease-in;
     }
 
     .blue {
@@ -57,7 +57,7 @@
         text-align: center;
         line-height: 5;
         z-index: 3;
-        animation: bluecircle 3s alternate infinite ease;
+        animation: bluecircle 1s alternate infinite ease-out;
     }
 
     @keyframes redcircle {
