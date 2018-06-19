@@ -62,8 +62,8 @@
 
     @keyframes redcircle {
       from {
-        left: 20%;
-        top: 0%;
+        left: 40%;
+        top: -30%;
       }
       to {
         left: 20%;
@@ -72,8 +72,8 @@
     }
     @keyframes greencircle {
       from {
-        left: 0%;
-        top: 40%;
+        left: -20%;
+        top: 60%;
       }
       to {
         left: 20%;
@@ -82,8 +82,8 @@
     }
     @keyframes bluecircle {
       from {
-        left: 40%;
-        top: 40%;
+        left: 60%;
+        top: 60%;
       }
       to {
         left: 20%;
